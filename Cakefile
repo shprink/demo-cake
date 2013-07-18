@@ -6,7 +6,7 @@ fs		= require 'fs'
 versionFile = 'version'
 
 ###
-		TASKS
+TASKS
 ###
 task 'tag.major', 'Major tag incrementation', ->
 	tag getIncreasedVersion 'major'
@@ -18,7 +18,7 @@ task 'tag.patch', 'Patch tag incrementation', ->
 	tag getIncreasedVersion 'patch'
 
 ###
-		METHODS
+METHODS
 ###
 tag = (version, callback) ->
 	# Preparing
