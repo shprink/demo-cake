@@ -20,7 +20,7 @@ task 'tag.patch', 'Patch tag incrementation', ->
 ###
 METHODS
 ###
-tag = (version, callback) ->
+tag = (version) ->
 	# Preparing
 	console.log "Increasing from #{getVersion()} to #{version}..."
 		
